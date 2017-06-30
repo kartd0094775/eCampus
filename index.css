@@ -1,0 +1,155 @@
+body {
+	font-family: Microsoft JhengHei;
+	background-color: #CCFF99;
+}	
+h1 {
+	background-color: #FFCC99;
+	color: steelBlue;	
+	padding-left: 3cm;
+}
+strong {
+	font-family: Oswald;
+	font-size: 1.2em;
+}
+td {
+	padding: 10px;
+}
+caption {
+	font-size: 1.5em;
+}
+a {
+	position: relative;
+	text-decoration: none;
+	transition: 2s;
+}
+ul li {
+	list-style: none;
+	margin-top: 15px;
+}
+#options a:hover {
+	width: 120%;
+	margin-left: 2cm;
+}
+#options a {
+	border-radius: 2cm;
+	padding: 3px;
+	background-color: rgb(167, 146, 98);
+	color: white;
+}
+#options {
+	position: relative;
+
+}
+#basic_info form {
+	margin-bottom: 30px;
+}
+#basic_info h3 {
+	text-align: center;
+	background-color: steelblue;
+	color: white;
+}
+.button {
+	float: right;
+}
+.form th {
+	background-color: grey;
+	color: white;
+}
+.form tr:nth-child(odd) td {
+	background-color: lightsteelblue;
+}
+.form tr:nth-child(even) td {
+	background-color: #eeeeee;
+}
+.content {
+	margin-top: 1cm;
+	margin-left: 9cm;
+	top: 100px;
+	position: absolute;
+}
+#search {
+	text-align: center;
+}
+#search table {
+	margin-top: 30px;
+}
+#search table:nth-child(2) tr:nth-child(1) td {
+	background-color: grey;
+	color: white;
+}
+#question_common table {
+	width: 100%;
+}
+#question_common table:nth-child(1) {
+	text-align: center;
+}
+#question_common > p {
+	color: darkblue;
+}
+#question_common em {
+	color: red;
+}
+#identified {
+	margin-left: 1cm;
+	
+}
+#identified a {
+	color: grey;
+	background-color: white;
+	border-color: grey;
+	border: 2px solid;
+	border-radius: 5px;
+	font-size: 1.5em; 
+	padding-left: 20px;
+	padding-right: 15px;
+
+}
+
+#identified a:visited {
+	color: grey;
+	background-color: white;
+	border-color: grey;
+	border: 2px solid;
+	border-radius: 5px;
+	font-size: 1.5em; 
+	padding-left: 20px;
+	padding-right: 15px;
+
+}
+#identified a:hover {
+
+	color: white;
+	background-color: grey;
+	border-color: grey;
+
+}
+#register { 
+	margin: auto;
+	padding: 20px;
+	background-color: lightsteelblue;
+	width: 60%;
+	border-radius: 20px;
+	border: 5px solid;
+	border-color: grey;
+
+}
+
+#register h2 {
+	width: 100px;
+	margin: 0px auto;
+	margin-bottom: 1cm;
+}
+#register form {
+	width: 500px;
+	margin: 0 auto;
+}
+#register input {
+	margin-bottom: 20px;
+}
+#register a {
+	padding: 2px;
+	margin: 0px auto;
+	border: 2px solid;
+	background-color: yellow;
+	color: grey;
+}

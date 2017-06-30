@@ -1,0 +1,174 @@
+body {
+    font-family: Microsoft JhengHei;
+    background-color: #CCFF99;
+}	
+h1 {
+    background-color: #FFCC99;
+    color: steelBlue;	
+    padding-left: 3cm;
+}
+strong {
+		font-family: Oswald;
+	font-size: 1.2em;
+}
+textarea {
+    overflow: scroll;
+}
+#option {
+    background-color: #339966;
+}
+#option td {
+    text-align: center;
+    border-color: black;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #888888;
+    padding:3px;
+    background-color: #ffffcc;
+
+}
+#option td ul {
+    transition: 2s;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+#option td:hover ul {
+    display: block;
+}
+
+#option td ul li {
+    transition: 2s;
+    text-align: center;
+    list-style: none;
+    background-color: pink;
+    transition: 0.5s;
+    
+}
+#option td ul li a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+.empty h1 {
+    color: white;
+    background-color: grey;
+    text-align: center;
+}
+#outline table {
+    text-align: center;
+    width: 100%;
+}
+#outline tr {
+    width: 100%;
+}
+
+#outline tr:nth-child(even) {
+    background-color: #FFCC99;
+}
+#outline tr:nth-child(odd) {
+    background-color: #99CCCC;
+}
+.form {
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+.form {
+    width: 100%;
+}
+.form tr th, td {
+    border-color: white;
+}
+.form th {
+    color: white;
+    background-color: #989898;
+}
+.form tr:nth-child(even) {
+    background-color: #FFCC99;
+}
+.form tr:nth-child(odd) {
+    background-color: #99CCCC;
+}
+#important {
+    width: 400px;
+    float: right;
+    border: 3px;
+
+}
+#important h2 {
+    text-align: center;
+}
+#important div {
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px;
+}
+#news h4 {
+    background-color: lightsteelblue;
+    width: 800px;
+    border-radius: 5px;
+    padding: 10px;
+}
+#news div p {
+    padding-left: 1cm;
+}
+#Introbox {
+    float: right;
+    padding: 2px;
+    border-radius: 20px;
+    width: 200px;
+    background-color: #cccccc;
+    box-shadow: 0px 5px 5px grey;
+}
+#Introbox h3 {
+    text-align: center;
+    background-color: #ffccff;
+}
+#documentation td:nth-child(7) {
+    background-color: #6699ff
+}
+#documentation td:nth-child(7):hover {
+    background-color: #eeeeee;
+}
+#documentation p {
+    color: #666666;
+}
+#option ul {      
+    border: 2px solid #993366; 
+}
+#communication {
+    float: right;
+}
+#score table {
+    width: 100%;
+}
+#score tr:nth-child(11) {
+    background-color: green;
+    color: white;
+}
+#abscence table {
+    width: 100%;
+}
+#function {
+    float: right;
+}
+#email {
+    display: inline-block;
+}
+#email table {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+}
+.button {
+    text-align: right;
+}
+#talking {
+    padding-top: 20px;
+}
+#select {
+    float: right;
+}
+#select h2 {
+    font-size: 0.8em;
+}
